@@ -1,0 +1,84 @@
+/*computadora*/
+#main{
+    max-width: 130rem;
+    padding: 5rem;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /*para que funcione tiene que ser display:flezx*/
+
+    padding: 1rem;
+    border: 1px solid rgb(194, 194, 194);
+}
+
+.caja_img{
+    width: 100%;
+    height: 17rem;
+}
+
+.caja_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.item h2{
+    font-size: 2rem;
+}
+
+.item p{
+    font-size: 1.4rem;
+}
+
+.item span{
+    font-weight: 800;
+    font-size: 1.6rem;
+    align-self: flex-end;
+}
+
+/*******************************************/
+/*Tableta*/
+@media screen and (max-width: 1000px){
+    #main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+    } 
+}
+
+
+/**********************************************/
+/*otra tableta*/
+@media screen and (max-width: 800px){
+    #main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+    } 
+}
+
+
+/**********************************************/
+/*telefono*/
+@media screen and (max-width: 480px){
+    #main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+        padding: 1rem;
+    } 
+
+    .item{
+    
+        max-width: 30rem;
+        margin: auto;
+    }
+}

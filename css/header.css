@@ -1,0 +1,53 @@
+
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+}
+
+#header h2{
+    font-size: 2.5rem;
+}
+
+#header ul{
+    list-style: none;
+    font-size: 1.6rem;
+
+    display: flex;
+    gap: 1rem; /*espacio entre las listas*/
+}
+
+#header ul li{
+    background-color: rgb(227, 227, 227);
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#header ul li:hover{
+    background-color: rgb(216, 199, 199);
+    color: brown;
+    transition: 0.3s;
+}
+
+/**********************************************/
+/*otra tableta*/
+@media screen and (max-width: 800px){
+    #header{
+
+        flex-direction: column;
+        align-items: center;/*izquierda derecha*/
+        /* justifi-content: --- de abajo y arriba*/
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    #header ul{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+        gap: 1rem;
+    }
+}
