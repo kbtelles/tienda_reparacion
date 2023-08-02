@@ -1,18 +1,22 @@
-export let caja_descripcion =` 
 
-    <div class="caja_general">
-    <section class="caja_1">
-        <img src="" alt="">
-    </section>
+export function descripcion(data, index) {
+    return `
+      <div class="caja_general">
+        <section class="caja_1">
+          <img class="img" src="${data[index].img}" alt="${data[index].titulo}">
+        </section>
+  
+        <section class="caja_2">
+          <h1 class="titu">${data[index].titulo}</h1>
+          <h2 class="descrip">${data[index].descripcion}</h2>
+          <ul class="herram">Herramientas: ${data[index].herramientas.map((herramienta) => `<li>${herramienta}</li>`).join("")}</ul>
+        </section>
+      </div>
+    `;
+  }
+  
 
-    <section class="caja_2">
-        <h1 class="titu">jeje</h1>
-        <h2 class="descrip">kdjkgjnd</h2>
-        <p class="herram">kdml</p>
-    </section>
-    </div>
 
-`;
 
 /*<div class="caja_general">
 <section class="caja_1">

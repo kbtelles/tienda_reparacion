@@ -1,42 +1,48 @@
 .descripcion_del_producto{
-    max-width: 130rem;
+    max-width: 100rem;
     padding: 5rem;
     margin: auto;
-    background-color: rgb(255, 119, 0);
 }
 
 .caja_general{
-    background-color: black;
     height: auto;
     display: flex;
     flex-direction: row;    
     padding: 1rem;
+    border: 5px solid black;
 }
 
 .caja_1{
     margin-right:  1rem;
-    height: auto;
-    width: 40%;
-    background-color: rgb(25, 127, 216);
+    width: 30%;
     object-fit: contain;
+    padding-right: 3rem;
+    padding-left: 1rem;
 }
+.img{
+    height: 100%;
+    width: 100%;
+}
+
 
 .caja_2{
     width: 60%;
     height: auto;
-    background-color: aqua;
     padding: 1rem;
 }
 
 .titu{
-    font-size: 2rem;
-    background-color: aquamarine;
+    color: brown;
+    font-size: 4rem;
 }
 
 .descrip{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
 }
 
 .herram{
-    font-size: 1rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
 }
