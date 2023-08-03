@@ -10,6 +10,7 @@ export function descripcion(data, index) {
           <h1 class="titu">${data[index].titulo}</h1>
           <h2 class="descrip">${data[index].descripcion}</h2>
           <ul class="herram">Herramientas: ${data[index].herramientas.map((herramienta) => `<li>${herramienta}</li>`).join("")}</ul>
+          <ul class="herram">Pasos: ${data[index].pasos.map((pasos) => `<li>${pasos}</li>`).join("")}</ul>
         </section>
       </div>
     `;

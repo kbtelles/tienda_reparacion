@@ -1,5 +1,5 @@
 .descripcion_del_producto{
-    max-width: 100rem;
+    max-width: 130rem;
     padding: 5rem;
     margin: auto;
 }
@@ -13,15 +13,19 @@
 }
 
 .caja_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right:  1rem;
-    width: 30%;
+    width: 40%;
     object-fit: contain;
     padding-right: 3rem;
     padding-left: 1rem;
 }
 .img{
-    height: 100%;
-    width: 100%;
+    height: 70%;
+    width: 80%;
+
 }
 
 
@@ -45,4 +49,5 @@
 .herram{
     font-size: 1.5rem;
     padding-left: 1rem;
+    padding-bottom: 1rem;
 }
