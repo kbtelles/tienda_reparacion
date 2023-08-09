@@ -1,5 +1,5 @@
 /*computadora*/
-#main{
+.main{
     max-width: 130rem;
     padding: 5rem;
     margin: auto;
@@ -47,7 +47,7 @@
 /*******************************************/
 /*Tableta*/
 @media screen and (max-width: 1000px){
-    #main{
+    .main{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(auto, 1fr);
@@ -58,7 +58,7 @@
 /**********************************************/
 /*otra tableta*/
 @media screen and (max-width: 800px){
-    #main{
+    .main{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(auto, 1fr);
@@ -69,7 +69,7 @@
 /**********************************************/
 /*telefono*/
 @media screen and (max-width: 480px){
-    #main{
+    .main{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(auto, 1fr);

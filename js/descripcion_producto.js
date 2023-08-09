@@ -1,20 +1,27 @@
+import { data } from "./data.js";
 
-export function descripcion(data, index) {
-    return `
+export function descripcion(id) {
+
+  let producto = id - 1;
+
+  let contenido=
+     `
       <div class="caja_general">
         <section class="caja_1">
-          <img class="img" src="${data[index].img}" alt="${data[index].titulo}">
+          <img class="img" src="${data[producto].img}" alt="${data[producto].titulo}">
         </section>
   
         <section class="caja_2">
-          <h1 class="titu">${data[index].titulo}</h1>
-          <h2 class="descrip">${data[index].descripcion}</h2>
+          <h1 class="titu">${data[producto].titulo}</h1>
+          <h2 class="descrip">${data[producto].descripcion}</h2>
           <span class="precio">Q100.00</span>
-          <ul class="herram">Herramientas: ${data[index].herramientas.map((herramienta) => `<li>${herramienta}</li>`).join("")}</ul>
-          <ul class="herram">Pasos: ${data[index].pasos.map((pasos) => `<li>${pasos}</li>`).join("")}</ul>
+          <ul class="herram">Herramientas: ${data[producto].herramientas.map((herramienta) => `<li>${herramienta}</li>`).join("")}</ul>
+          <ul class="herram">Pasos: ${data[producto].pasos.map((pasos) => `<li>${pasos}</li>`).join("")}</ul>
         </section>
       </div>
     `;
+
+    return contenido;
   }
   
 

@@ -1,5 +1,6 @@
 export let data = [
   {
+      id:"1",
       titulo: "Cambio de pasta térmica",
       img: "https://cdn-icons-png.flaticon.com/512/8046/8046636.png",
       descripcion: "Cómo cambiar la pasta térmica del procesador para mejorar la disipación de calor y el rendimiento.",
@@ -19,6 +20,7 @@ export let data = [
       ]
   },
   {
+    id:"2",
       titulo: "Limpieza de los ventiladores",
       img: "https://img.freepik.com/iconos-gratis/ventilador_318-701983.jpg?w=2000",
       descripcion: "Cómo limpiar los ventiladores del computador para mejorar la refrigeración y el rendimiento.",
@@ -39,6 +41,7 @@ export let data = [
       ]
   },
   {
+    id:"3",
       titulo: "Cambio de disco duro a SSD",
       img: "https://cdn-icons-png.flaticon.com/512/4047/4047694.png",
       descripcion: "Cómo reemplazar el disco duro tradicional por un SSD para mejorar el rendimiento y la velocidad del computador.",
@@ -61,6 +64,7 @@ export let data = [
   },
 
   {
+    id:"4",
     titulo: "Cambio de memoria RAM",
     img: "https://cdn-icons-png.flaticon.com/512/908/908522.png",
     descripcion: "Cómo agregar o reemplazar módulos de memoria RAM para mejorar el rendimiento del computador.",
@@ -81,6 +85,7 @@ export let data = [
   
     
       {
+        id:"5",
         titulo: "Limpieza de un computador portátil",
         img:"https://cdn-icons-png.flaticon.com/512/1606/1606145.png",
         descripcion: "Cómo limpiar de manera segura y efectiva un computador portátil para mantenerlo en óptimas condiciones.",
@@ -103,6 +108,7 @@ export let data = [
       },
       
     {
+      id:"6",
       titulo: "Reparación de pantalla rota de teléfono",
       img: "https://img.freepik.com/iconos-gratis/muerto_318-844678.jpg?q=10&h=200",
       descripcion: "Guía paso a paso para reemplazar una pantalla rota en un teléfono móvil.",
@@ -122,6 +128,7 @@ export let data = [
     },
     
     {
+      id:"7",
       titulo: "Solución de problemas de conexión Wi-Fi",
       img: "https://cdn-icons-png.flaticon.com/512/1126/1126411.png",
       descripcion: "Guía para solucionar problemas de conectividad Wi-Fi en dispositivos.",
@@ -141,6 +148,7 @@ export let data = [
       ]
     },    
     {
+      id:"8",
       titulo: "Mantenimiento de computadora",
       img: "https://cdn-icons-png.flaticon.com/512/2920/2920288.png",
       descripcion: "Consejos para el mantenimiento regular de una computadora para mejorar su rendimiento y durabilidad.",
@@ -160,6 +168,7 @@ export let data = [
       ]
     },
     {
+      id:"9",
       titulo: "Recuperación de datos borrados",
       img: "https://images.wondershare.com/repairit/images2022/file-repair/lost-img2.png",
       descripcion: "Pasos para recuperar archivos borrados accidentalmente en una unidad de almacenamiento.",
@@ -176,6 +185,7 @@ export let data = [
       ]
     },
     {
+      id:"10",
       titulo: "Reparación de teclado atascado",
       img: "https://kelatos.com/wp-content/uploads/2018/07/surprised-1184889_960_720.png",
       descripcion: "Instrucciones para solucionar un teclado de computadora con teclas atascadas.",
@@ -189,6 +199,7 @@ export let data = [
     },
     
     {
+      id:"11",
       titulo: "Instalación de actualizaciones del sistema operativo",
       img: "https://img.freepik.com/iconos-gratis/actualizar_318-810111.jpg",
       descripcion: "Pasos para instalar las últimas actualizaciones de seguridad y funciones en el sistema operativo.",
@@ -211,6 +222,7 @@ export let data = [
     },
     
     {
+      id:"12",
       titulo: "Reemplazo de batería de portátil",
       img: "https://img.freepik.com/iconos-gratis/bateria_318-489556.jpg?w=2000",
       descripcion: "Guía para reemplazar la batería agotada de una computadora portátil.",
@@ -228,6 +240,7 @@ export let data = [
     },
     
     {
+      id:"13",
       titulo: "Limpieza de ventiladores de computadora",
       img: "https://img.freepik.com/iconos-gratis/ventilador_318-900309.jpg",
       descripcion: "Instrucciones para limpiar los ventiladores de una computadora para evitar el sobrecalentamiento.",

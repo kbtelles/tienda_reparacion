@@ -6,6 +6,7 @@ let main_DOM = document.querySelector("#main");
 data.forEach((cada_item) => {
   let item = document.createElement("div");
   item.className = "item";
+  item.id = `${cada_item.id}`;
 
   item.innerHTML = `
     <div class="caja_img">
@@ -21,16 +22,19 @@ data.forEach((cada_item) => {
 // Ver detalles del producto.
 let productos = document.querySelectorAll(".item");
 
-function mostrarDescripcion(event) {
+function mostrarDescripcion() {
   let caja_descripcion_DOM = document.querySelector(".descripcion_del_producto");
 
-  let index = Array.from(productos).indexOf(event.currentTarget);
 
-  let productDescriptionHTML = descripcion(data, index);
-  caja_descripcion_DOM.innerHTML = productDescriptionHTML;
+  caja_descripcion_DOM.innerHTML = descripcion(this.id);
+  console.log(this.id)
+
+  let main = document.querySelector("#main");
+  main.classList.add("ocultar");
 }
 
 productos.forEach((cada_elemento) => {
   cada_elemento.addEventListener("click", mostrarDescripcion);
+
 });
 
