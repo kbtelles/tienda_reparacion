@@ -1,9 +1,10 @@
 export let data = [
   {
       id:"1",
+      estado:true,
       titulo: "Cambio de pasta térmica",
       img: "https://cdn-icons-png.flaticon.com/512/8046/8046636.png",
-      descripcion: "Cómo cambiar la pasta térmica del procesador para mejorar la disipación de calor y el rendimiento.",
+      descripcion: "Descubre cómo la pasta térmica optimiza la transferencia de calor entre el procesador y el disipador, garantizando un rendimiento óptimo al mantener temperaturas adecuadas. Aprende este proceso para desbloquear el potencial de tu procesador y lograr un rendimiento más eficiente en tus tareas y aplicaciones.",
       precio: "Q.100.00",
       herramientas: [
           "Destornillador de estrella",
@@ -22,8 +23,9 @@ export let data = [
   {
     id:"2",
       titulo: "Limpieza de los ventiladores",
+      estado:true,
       img: "https://img.freepik.com/iconos-gratis/ventilador_318-701983.jpg?w=2000",
-      descripcion: "Cómo limpiar los ventiladores del computador para mejorar la refrigeración y el rendimiento.",
+      descripcion: "Descubre la relevancia de limpiar los ventiladores de tu computadora para mejorar la refrigeración y el rendimiento. Domina esta técnica para prolongar la vida útil de tu equipo y lograr un desempeño óptimo en todas tus actividades.",
       precio: "Q.100.00",
       herramientas: [
           "Destornillador de estrella",
@@ -43,8 +45,9 @@ export let data = [
   {
     id:"3",
       titulo: "Cambio de disco duro a SSD",
+      estado:false,
       img: "https://cdn-icons-png.flaticon.com/512/4047/4047694.png",
-      descripcion: "Cómo reemplazar el disco duro tradicional por un SSD para mejorar el rendimiento y la velocidad del computador.",
+      descripcion: "Mejora la velocidad y el rendimiento de tu computadora al cambiar el disco duro tradicional por un SSD. Aprende a hacer esta actualización para obtener una mayor capacidad de respuesta y un mejor desempeño en general.",
       precio: "Q.100.00",
       herramientas: [
           "Destornillador de estrella",
@@ -66,8 +69,9 @@ export let data = [
   {
     id:"4",
     titulo: "Cambio de memoria RAM",
+    estado:false,
     img: "https://cdn-icons-png.flaticon.com/512/908/908522.png",
-    descripcion: "Cómo agregar o reemplazar módulos de memoria RAM para mejorar el rendimiento del computador.",
+    descripcion: "Aprende cómo esta mejora incrementa la capacidad multitarea y agiliza la ejecución de aplicaciones. Domina este proceso para disfrutar de un desempeño más fluido y eficiente en tus tareas y programas.",
     precio: "Q.100.00",
     herramientas: [
       "Destornillador de estrella",
@@ -86,9 +90,10 @@ export let data = [
     
       {
         id:"5",
-        titulo: "Limpieza de un computador portátil",
+        titulo: "Limpieza de una computadora",
+        estado:true,
         img:"https://cdn-icons-png.flaticon.com/512/1606/1606145.png",
-        descripcion: "Cómo limpiar de manera segura y efectiva un computador portátil para mantenerlo en óptimas condiciones.",
+        descripcion: "Aprende a limpiar tu computadora de manera segura y efectiva para mantenerla en condiciones óptimas de funcionamiento.Domina esta técnica para garantizar un óptimo funcionamiento y una mayor durabilidad de tu computadora.",
         precio: "Q.100.00",
         herramientas: [
           "Paño de microfibra",
@@ -106,32 +111,12 @@ export let data = [
          " Encender el computador y verificar su correcto funcionamiento.",
       "    Realizar limpiezas regulares para mantener el computador en óptimas condiciones.    "    ]
       },
-      
     {
       id:"6",
-      titulo: "Reparación de pantalla rota de teléfono",
-      img: "https://img.freepik.com/iconos-gratis/muerto_318-844678.jpg?q=10&h=200",
-      descripcion: "Guía paso a paso para reemplazar una pantalla rota en un teléfono móvil.",
-      precio: "Q.100.00",
-      herramientas: ["Destornillador", "Pantalla de repuesto", "Pinzas", "Ventosa"],
-      pasos: [
-        "Apagar el teléfono y desconectarlo de cualquier fuente de energía.",
-        "Retirar la cubierta trasera del teléfono usando el destornillador.",
-        "Desconectar la batería y otros componentes conectados a la pantalla.",
-        "Usar la ventosa para levantar suavemente la pantalla rota del teléfono.",
-        "Desconectar los cables flexibles de la pantalla antigua.",
-        "Colocar la nueva pantalla y conectar los cables flexibles.",
-        "Volver a conectar la batería y otros componentes.",
-        "Asegurar la pantalla en su lugar y volver a colocar la cubierta trasera.",
-        "Encender el teléfono y verificar el correcto funcionamiento de la nueva pantalla."
-      ]
-    },
-    
-    {
-      id:"7",
       titulo: "Solución de problemas de conexión Wi-Fi",
+      estado:true,
       img: "https://cdn-icons-png.flaticon.com/512/1126/1126411.png",
-      descripcion: "Guía para solucionar problemas de conectividad Wi-Fi en dispositivos.",
+      descripcion:  "Accede a esta guía para resolver problemas de conectividad Wi-Fi en tus dispositivos. Encuentra soluciones efectivas que te ayudarán a restablecer la conexión y disfrutar de una experiencia fluida en línea.",
       precio: "Q.100.00",
       herramientas: ["Computadora", "Router", "Comprobador de señal Wi-Fi"],
       pasos: [
@@ -148,10 +133,11 @@ export let data = [
       ]
     },    
     {
-      id:"8",
+      id:"7",
       titulo: "Mantenimiento de computadora",
+      estado:false,
       img: "https://cdn-icons-png.flaticon.com/512/2920/2920288.png",
-      descripcion: "Consejos para el mantenimiento regular de una computadora para mejorar su rendimiento y durabilidad.",
+      descripcion: "Descubre valiosos consejos de mantenimiento para potenciar el rendimiento y la durabilidad de tu computadora a través de prácticas regulares.",
       precio: "Q.100.00",
       herramientas: ["Paño de microfibra", "Aire comprimido", "Destornillador"],
       pasos: [
@@ -168,10 +154,11 @@ export let data = [
       ]
     },
     {
-      id:"9",
+      id:"8",
       titulo: "Recuperación de datos borrados",
-      img: "https://images.wondershare.com/repairit/images2022/file-repair/lost-img2.png",
-      descripcion: "Pasos para recuperar archivos borrados accidentalmente en una unidad de almacenamiento.",
+      estado:true,
+      img: "https://www.profesionalreview.com/wp-content/uploads/2018/02/programas-para-recuperar.jpg",
+      descripcion: "Aprende los pasos necesarios para recuperar archivos accidentalmente eliminados en una unidad de almacenamiento, permitiéndote restaurar información valiosa de manera efectiva.",
       precio: "Q.100.00",
       herramientas: ["Software de recuperación de datos", "Conexión a una computadora"],
       pasos: [
@@ -185,10 +172,11 @@ export let data = [
       ]
     },
     {
-      id:"10",
+      id:"9",
       titulo: "Reparación de teclado atascado",
-      img: "https://kelatos.com/wp-content/uploads/2018/07/surprised-1184889_960_720.png",
-      descripcion: "Instrucciones para solucionar un teclado de computadora con teclas atascadas.",
+      estado:true,
+      img: "https://previews.123rf.com/images/madmaxer/madmaxer1105/madmaxer110500080/9518823-ilustraci%C3%B3n-3d-de-teclado-de-ordenador-con-herramientas-manuales-concepto-de-reparaci%C3%B3n-de-equipo.jpg",
+      descripcion: "Aprende cómo solucionar teclas atascadas en un teclado de computadora con estas instrucciones prácticas y recupera su funcionalidad sin problemas.",
       precio: "Q.100.00",
       herramientas: ["Destornillador", "Toallitas de limpieza", "Pincel"],
       pasos: [
@@ -199,10 +187,11 @@ export let data = [
     },
     
     {
-      id:"11",
+      id:"10",
       titulo: "Instalación de actualizaciones del sistema operativo",
-      img: "https://img.freepik.com/iconos-gratis/actualizar_318-810111.jpg",
-      descripcion: "Pasos para instalar las últimas actualizaciones de seguridad y funciones en el sistema operativo.",
+      estado:true,
+      img: "https://zeus.descubrecomohacerlo.com/uploads/images/content/laptop-seguridad-herramienta_2761.jpg",
+      descripcion: "Descubre los pasos esenciales para instalar las últimas actualizaciones de seguridad y funciones en tu sistema operativo, manteniendo tu sistema protegido y aprovechando las mejoras más recientes.",
       precio: "Q.100.00",
       herramientas: ["Conexión a Internet", "Espacio de almacenamiento suficiente"],
       pasos: [
@@ -219,44 +208,5 @@ export let data = [
         "Configurar nuevas funciones o ajustes si es necesario",
         "Mantener activadas las actualizaciones automáticas"
               ]
-    },
-    
-    {
-      id:"12",
-      titulo: "Reemplazo de batería de portátil",
-      img: "https://img.freepik.com/iconos-gratis/bateria_318-489556.jpg?w=2000",
-      descripcion: "Guía para reemplazar la batería agotada de una computadora portátil.",
-      precio: "Q.100.00",
-      herramientas: ["Destornillador", "Batería de repuesto", "Espátula de plástico"],
-      pasos: [
-        "Apagar y desconectar la computadora portátil.",
-        "Localizar y desatornillar el compartimiento de la batería.",
-        "Retirar la batería agotada y colocar la nueva en su lugar.",
-        "Volver a colocar la cubierta del compartimiento de la batería.",
-        "Conectar la computadora a una fuente de energía y cargar completamente la batería.",
-        "Encender la computadora y verificar el reconocimiento de la nueva batería.",
-        "Realizar pruebas para asegurarse de su correcto funcionamiento y duración de carga.",
-        "Desechar adecuadamente la batería antigua siguiendo las regulaciones locales de reciclaje de residuos electrónicos."      ]
-    },
-    
-    {
-      id:"13",
-      titulo: "Limpieza de ventiladores de computadora",
-      img: "https://img.freepik.com/iconos-gratis/ventilador_318-900309.jpg",
-      descripcion: "Instrucciones para limpiar los ventiladores de una computadora para evitar el sobrecalentamiento.",
-      precio: "Q.100.00",
-      herramientas: ["Destornillador", "Toallitas de limpieza", "Aire comprimido"],
-      pasos: [
-        "Apagar y desconectar la computadora.",
-        "Desatornillar la cubierta lateral o trasera para acceder a los ventiladores.",
-        "Limpiar suavemente los ventiladores con toallitas o aire comprimido.",
-        "Desmontar y limpiar los ventiladores si es necesario.",
-        "Inspeccionar visualmente y asegurarse de que no haya obstrucciones.",
-        "Limpiar otros componentes afectados por el polvo, si es necesario.",
-        "Volver a colocar y asegurar los ventiladores en su lugar.",
-        "Cerrar la cubierta y atornillarla de manera segura.",
-        "Encender la computadora y verificar el correcto funcionamiento de los ventiladores.",
-        "Realizar pruebas adicionales para asegurarse de una mejora en el rendimiento térmico.",
-        "Programar limpiezas regulares para mantener la computadora en condiciones óptimas de refrigeración."      ]
     }
 ];

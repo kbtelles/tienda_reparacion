@@ -14,10 +14,23 @@ export function descripcion(id) {
         <section class="caja_2">
           <h1 class="titu">${data[producto].titulo}</h1>
           <h2 class="descrip">${data[producto].descripcion}</h2>
+          <!-- <ul class="herram">Herramientas: ${data[producto].herramientas.map((herramienta) => `<li>${herramienta}</li>`).join("")}</ul> -->
+          <!-- <ul class="herram">Pasos: ${data[producto].pasos.map((pasos) => `<li>${pasos}</li>`).join("")}</ul> -->
+        
+          <section class="caja_bot">
+          <button class="one"> Comprar 🛒 </button>
+          ${
+            data[producto].estado
+              ? '<button class="two"> Hazlo tú 🫵</button>'
+              : ''
+          }
+          </section>
+
           <span class="precio">Q100.00</span>
-          <ul class="herram">Herramientas: ${data[producto].herramientas.map((herramienta) => `<li>${herramienta}</li>`).join("")}</ul>
-          <ul class="herram">Pasos: ${data[producto].pasos.map((pasos) => `<li>${pasos}</li>`).join("")}</ul>
-        </section>
+
+          </section>
+
+
       </div>
     `;
 

@@ -13,7 +13,7 @@ data.forEach((cada_item) => {
         <img src="${cada_item.img}"/>
     </div>
     <h2>${cada_item.titulo}</h2>
-    <p>${cada_item.descripcion}</p>
+    <!-- <p>${cada_item.descripcion}</p> -->
     <span>Q100.00</span>
   `;
   main_DOM.appendChild(item);
