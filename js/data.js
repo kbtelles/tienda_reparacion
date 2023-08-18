@@ -6,6 +6,7 @@ export let data = [
       img: "https://cdn-icons-png.flaticon.com/512/8046/8046636.png",
       descripcion: "Descubre cómo la pasta térmica optimiza la transferencia de calor entre el procesador y el disipador, garantizando un rendimiento óptimo al mantener temperaturas adecuadas. Aprende este proceso para desbloquear el potencial de tu procesador y lograr un rendimiento más eficiente en tus tareas y aplicaciones.",
       precio: "Q.100.00",
+      link: "https://www.youtube.com/watch?v=Gsm02mt30vU",
       herramientas: [
           "Destornillador de estrella",
           "Paño de microfibra",
@@ -27,6 +28,7 @@ export let data = [
       img: "https://img.freepik.com/iconos-gratis/ventilador_318-701983.jpg?w=2000",
       descripcion: "Descubre la relevancia de limpiar los ventiladores de tu computadora para mejorar la refrigeración y el rendimiento. Domina esta técnica para prolongar la vida útil de tu equipo y lograr un desempeño óptimo en todas tus actividades.",
       precio: "Q.100.00",
+      link: "https://www.youtube.com/watch?v=i2l0A2dlgGg",
       herramientas: [
           "Destornillador de estrella",
           "Lata de aire comprimido",
@@ -49,6 +51,7 @@ export let data = [
       img: "https://cdn-icons-png.flaticon.com/512/4047/4047694.png",
       descripcion: "Mejora la velocidad y el rendimiento de tu computadora al cambiar el disco duro tradicional por un SSD. Aprende a hacer esta actualización para obtener una mayor capacidad de respuesta y un mejor desempeño en general.",
       precio: "Q.100.00",
+      link:"https://www.youtube.com/watch?v=CxntAJGTiOM",
       herramientas: [
           "Destornillador de estrella",
           "SSD compatible con el computador",
@@ -73,6 +76,7 @@ export let data = [
     img: "https://cdn-icons-png.flaticon.com/512/908/908522.png",
     descripcion: "Aprende cómo esta mejora incrementa la capacidad multitarea y agiliza la ejecución de aplicaciones. Domina este proceso para disfrutar de un desempeño más fluido y eficiente en tus tareas y programas.",
     precio: "Q.100.00",
+    link:"https://www.youtube.com/watch?v=0hJRz3bFtSI",
     herramientas: [
       "Destornillador de estrella",
       "Nuevos módulos de memoria RAM compatibles",
@@ -95,6 +99,7 @@ export let data = [
         img:"https://cdn-icons-png.flaticon.com/512/1606/1606145.png",
         descripcion: "Aprende a limpiar tu computadora de manera segura y efectiva para mantenerla en condiciones óptimas de funcionamiento.Domina esta técnica para garantizar un óptimo funcionamiento y una mayor durabilidad de tu computadora.",
         precio: "Q.100.00",
+        link:"https://www.youtube.com/watch?v=OKlMJ5eJnJQ",
         herramientas: [
           "Paño de microfibra",
           "Aire comprimido",
@@ -118,6 +123,7 @@ export let data = [
       img: "https://cdn-icons-png.flaticon.com/512/1126/1126411.png",
       descripcion:  "Accede a esta guía para resolver problemas de conectividad Wi-Fi en tus dispositivos. Encuentra soluciones efectivas que te ayudarán a restablecer la conexión y disfrutar de una experiencia fluida en línea.",
       precio: "Q.100.00",
+      link:"https://www.youtube.com/watch?v=8crHCIHxCFw",
       herramientas: ["Computadora", "Router", "Comprobador de señal Wi-Fi"],
       pasos: [
         "Reiniciar el dispositivo con problemas de conexión Wi-Fi.",
@@ -139,6 +145,7 @@ export let data = [
       img: "https://cdn-icons-png.flaticon.com/512/2920/2920288.png",
       descripcion: "Descubre valiosos consejos de mantenimiento para potenciar el rendimiento y la durabilidad de tu computadora a través de prácticas regulares.",
       precio: "Q.100.00",
+      link:"https://www.youtube.com/watch?v=VK4MquWx_a0",
       herramientas: ["Paño de microfibra", "Aire comprimido", "Destornillador"],
       pasos: [
         "Apagar y desconectar la computadora.",
@@ -160,6 +167,7 @@ export let data = [
       img: "https://www.profesionalreview.com/wp-content/uploads/2018/02/programas-para-recuperar.jpg",
       descripcion: "Aprende los pasos necesarios para recuperar archivos accidentalmente eliminados en una unidad de almacenamiento, permitiéndote restaurar información valiosa de manera efectiva.",
       precio: "Q.100.00",
+      link:"https://www.youtube.com/watch?v=F9vAQLBW46c",
       herramientas: ["Software de recuperación de datos", "Conexión a una computadora"],
       pasos: [
         "Dejar de usar la unidad de almacenamiento inmediatamente.",
@@ -178,6 +186,7 @@ export let data = [
       img: "https://previews.123rf.com/images/madmaxer/madmaxer1105/madmaxer110500080/9518823-ilustraci%C3%B3n-3d-de-teclado-de-ordenador-con-herramientas-manuales-concepto-de-reparaci%C3%B3n-de-equipo.jpg",
       descripcion: "Aprende cómo solucionar teclas atascadas en un teclado de computadora con estas instrucciones prácticas y recupera su funcionalidad sin problemas.",
       precio: "Q.100.00",
+      link:"https://www.youtube.com/watch?v=2BHxley0O0w",
       herramientas: ["Destornillador", "Toallitas de limpieza", "Pincel"],
       pasos: [
         "Apagar y desconectar la computadora.",
@@ -193,6 +202,7 @@ export let data = [
       img: "https://zeus.descubrecomohacerlo.com/uploads/images/content/laptop-seguridad-herramienta_2761.jpg",
       descripcion: "Descubre los pasos esenciales para instalar las últimas actualizaciones de seguridad y funciones en tu sistema operativo, manteniendo tu sistema protegido y aprovechando las mejoras más recientes.",
       precio: "Q.100.00",
+      link:"https://www.youtube.com/watch?v=zjIOUJMN5ok",
       herramientas: ["Conexión a Internet", "Espacio de almacenamiento suficiente"],
       pasos: [
         "Guardar y cerrar todos los archivos y programas abiertos",
